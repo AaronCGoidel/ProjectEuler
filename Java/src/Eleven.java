@@ -63,7 +63,7 @@ public class Eleven // this is the least inspiring of the problems thus far.
         // this problem was not interesting all I'm doing is looping over each product
         // and seeing if it is larger than the previous greatest product.
         // Yes I know it can be done a bit better but I really don't care on this one.
-        int[][] matrix = readGrid("src/inputs/11.txt", 20);
+        int[][] matrix = readGrid("../../inputs/11.txt", 20);
         int max = 0;
 
         int currentProduct = 0;
